@@ -12,6 +12,7 @@ function NavBar() {
             Phimmoi
           </Link>
           <ul>
+            <CustomLink to={"/QRGenerate"}>QR Code Generator</CustomLink>
             <CustomLink to={"/Category"}>Category</CustomLink>
             <CustomLink to={"/About"}>About</CustomLink>
           </ul>

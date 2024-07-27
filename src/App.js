@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About';
 import Category from './components/Category/Category';
 import {Route, Routes} from 'react-router-dom';
+import QRGenerate from './components/QRGenerate/QRGenerate';
 
 function App() {
   // For test purpose ++
@@ -30,6 +31,7 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/Category" element={<Category/>}></Route>
         <Route path="/About" element={<About/>}></Route>
+        <Route path='/QRGenerate' element={<QRGenerate/>}></Route>
       </Routes>
     </div>
   );
